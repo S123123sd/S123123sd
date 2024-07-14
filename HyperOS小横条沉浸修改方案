@@ -1,0 +1,18 @@
+HyperOS小白条完美沉浸方案
+
+1. 在/product/overlay/目录下使用MT管理器高级搜索: 【navigation_bar_height】
+
+2. 修改所有搜索到的含有【navigation_bar_height】的apk文件
+
+3. 逐个修改找到的apk文件，Arsc++编辑器打开resources.arsc
+
+4. 搜索【 navigation_bar_height 】
+
+
+注意，只修改类似这样的代码【 navigation_bar_height">0.100000024dp< 】
+注意修改 >< 中的纯数字，不要动其他任何字符，【navigation_bar_frame_height】参考值【0.1dp】
+修改所有在步骤1中查找到的apk文件即可
+
+调整键盘间距？
+查找【navigation_bar_frame_height】和【navigation_bar_frame_height_landscape】按上述方法修改即可
+【参考值: 12dp】
