@@ -9,8 +9,8 @@ HyperOS | MIUI14 小白条完美沉浸方案
 4. 搜索【 navigation_bar_height 】
 
 
-注意，只修改类似这样的代码【 navigation_bar_height">0.100000024dp< 】
-注意修改 >< 中的纯数字，不要动其他任何字符，【navigation_bar_frame_height】参考值【0.1dp】
+注意, 只修改类似这样的代码【 navigation_bar_height">0.100000024dp< 】
+注意, 只修改 >< 中的纯数字，不要动其他任何字符.【navigation_bar_frame_height】参考值【0.1dp】
 修改所有在步骤1中查找到的apk文件即可
 
 调整键盘间距？
