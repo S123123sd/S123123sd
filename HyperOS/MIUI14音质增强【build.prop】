@@ -3,6 +3,9 @@
 ro.vendor.audio.sfx.harmankardon=true
 ––––––––––––––––––––––––––––––––––––––––––––––––
 【vendor】build.prop
+#超级音量
+ro.vendor.audio.voice.super_volume=true
+
 # 是否启用接近传感器
 ro.vendor.audio.us.proximity=true
 # 声音触发器类型
@@ -184,7 +187,4 @@ vendor.audio.heic.quality=100
 # 音频编码器HEIF的复杂度和质量设置
 vendor.audio.heif.complexity.default=8
 vendor.audio.heif.quality=100
-
-#超级音量
-ro.vendor.audio.voice.super_volume=true
 
