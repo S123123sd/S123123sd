@@ -1,0 +1,189 @@
+【system】build.prop
+#开启哈曼卡顿
+ro.vendor.audio.sfx.harmankardon=true
+––––––––––––––––––––––––––––––––––––––––––––––––
+【vendor】build.prop
+#超级音量
+ro.vendor.audio.voice.super_volume=true
+
+# 是否启用接近传感器
+ro.vendor.audio.us.proximity=true
+# 声音触发器类型
+ro.vendor.audio.soundtrigger.pangaea=1
+# 是否启用SOS功能
+ro.vendor.audio.sos=true
+# 是否启用游戏音效
+ro.vendor.audio.game.effect=true
+# 是否启用多路音频
+ro.vendor.audio.multiroute=true
+# 音频监控旋转
+ro.audio.monitorRotation=true
+# 声音触发器类型
+ro.vendor.audio.soundtrigger=sva
+# 是否启用低功耗声音触发器
+ro.vendor.audio.soundtrigger.lowpower=true
+# 声音触发器训练级别
+ro.vendor.audio.soundtrigger.training.level=50
+# Xanzn GMM 级别
+ro.vendor.audio.soundtrigger.xanzn.gmm.level=45
+# Xanzn GMM 用户级别
+ro.vendor.audio.soundtrigger.xanzn.gmm.user.level=30
+# Xanzn CNN 级别
+ro.vendor.audio.soundtrigger.xanzn.cnn.level=80
+# Xanzn VOP 级别
+ro.vendor.audio.soundtrigger.xanzn.vop.level=10
+# Xatx GMM 级别
+ro.vendor.audio.soundtrigger.xatx.gmm.level=50
+# Xatx GMM 用户级别
+ro.vendor.audio.soundtrigger.xatx.gmm.user.level=40
+# Xatx CNN 级别
+ro.vendor.audio.soundtrigger.xatx.cnn.level=27
+# Xatx VOP 级别
+ro.vendor.audio.soundtrigger.xatx.vop.level=10
+# 应用定义 GMM 级别
+ro.vendor.audio.soundtrigger.appdefine.gmm.level=55
+# 应用定义 GMM 用户级别
+ro.vendor.audio.soundtrigger.appdefine.gmm.user.level=65
+# 应用定义 CNN 级别
+ro.vendor.audio.soundtrigger.appdefine.cnn.level=35
+# 应用定义 VOP 级别
+ro.vendor.audio.soundtrigger.appdefine.vop.level=10
+# 声音触发器信噪比
+ro.vendor.audio.soundtrigger.snr=16
+# 是否支持环绕声
+ro.vendor.audio.surround.support=true
+# 是否支持场景音频
+ro.vendor.audio.scenario.support=true
+# 是否支持立体声扬声器
+ro.vendor.audio.spk.stereo=true
+# 是否支持人声
+ro.vendor.audio.vocal.support=true
+# 是否支持AI助手
+ro.vendor.audio.aiasst.support=true
+# 声音音量提升方式
+ro.vendor.audio.voice.volume.boost=manual
+# 是否禁用音效视觉效果
+ro.vendor.audio.sfx.audiovisual=false
+
+# 是否启用场景音效
+ro.vendor.audio.sfx.scenario=true
+# 是否启用USB音效
+ro.vendor.audio.soundfx.usb=true
+# 仅限耳机的环绕声
+ro.vendor.audio.surround.headphone.only=true
+# 是否重置均衡器
+ro.vendor.audio.eq.reset=true
+# 是否显示MIUI卡拉OK
+ro.vendor.audio.miui.karaoke.show=false
+# 是否显示腾讯卡拉OK
+ro.vendor.audio.miui.karaoke.tencent.show=false
+# 设置音频效果为Harman Kardon
+ro.vendor.audio.sfx.harmankardon=true
+
+# 音频编码器MPEG-H的复杂度和质量设置
+vendor.audio.mpegh.complexity.default=8
+vendor.audio.mpegh.quality=100
+
+# 音频编码器MP3的复杂度和质量设置
+vendor.audio.mp3.complexity.default=8
+vendor.audio.mp3.quality=100
+
+# 音频编码器AMR-WB+的复杂度和质量设置
+vendor.audio.amrwbplus.complexity.default=8
+vendor.audio.amrwbplus.quality=100
+
+# 音频编码器AMR-NB的复杂度和质量设置
+vendor.audio.amrnb.complexity.default=8
+vendor.audio.amrnb.quality=100
+
+# 音频编码器AMR-WB的复杂度和质量设置
+vendor.audio.amrwb.complexity.default=8
+vendor.audio.amrwb.quality=100
+
+# 音频编码器FLAC的复杂度和质量设置
+vendor.audio.flac.complexity.default=8
+vendor.audio.flac.quality=100
+
+# 音频编码器ALAC的复杂度和质量设置
+vendor.audio.alac.complexity.default=8
+vendor.audio.alac.quality=100
+
+# 音频编码器APE的复杂度和质量设置
+vendor.audio.ape.complexity.default=8
+vendor.audio.ape.quality=100
+
+# 音频编码器AAC的复杂度和质量设置
+vendor.audio.aac.complexity.default=8
+vendor.audio.aac.quality=100
+
+# 音频编码器AAC_ADTS的复杂度和质量设置
+vendor.audio.aac_adts.complexity.default=8
+vendor.audio.aac_adts.quality=100
+
+# 音频编码器DTS的复杂度和质量设置
+vendor.audio.dts.complexity.default=8
+vendor.audio.dts.quality=100
+
+# 音频编码器WMA的复杂度和质量设置
+vendor.audio.wma.complexity.default=8
+vendor.audio.wma.quality=100
+
+# 音频编码器Vorbis的复杂度和质量设置
+vendor.audio.vorbis.complexity.default=8
+vendor.audio.vorbis.quality=100
+
+# 音频编码器ADTS的复杂度和质量设置
+vendor.audio.adts.complexity.default=8
+vendor.audio.adts.quality=100
+
+# 音频编码器Opus的复杂度和质量设置
+vendor.audio.opus.complexity.default=8
+vendor.audio.opus.quality=100
+
+# 原始音频数据的复杂度和质量设置
+vendor.audio.raw.complexity.default=8
+vendor.audio.raw.quality=100
+
+# 音频编码器AC3的复杂度和质量设置
+vendor.audio.ac3.complexity.default=8
+vendor.audio.ac3.quality=100
+
+# 音频编码器EAC3的复杂度和质量设置
+vendor.audio.eac3.complexity.default=8
+vendor.audio.eac3.quality=100
+
+# 音频编码器EAC3_JOC的复杂度和质量设置
+vendor.audio.eac3_joc.complexity.default=8
+vendor.audio.eac3_joc.quality=100
+
+# 音频编码器AC4的复杂度和质量设置
+vendor.audio.ac4.complexity.default=8
+vendor.audio.ac4.quality=100
+
+# 音频编码器DSP的复杂度和质量设置
+vendor.audio.dsp.complexity.default=8
+vendor.audio.dsp.quality=100
+
+# 音频编码器DSD的复杂度和质量设置
+vendor.audio.dsd.complexity.default=8
+vendor.audio.dsd.quality=100
+
+# 音频编码器EVRC的复杂度和质量设置
+vendor.audio.evrc.complexity.default=8
+vendor.audio.evrc.quality=100
+
+# 音频编码器QCELP的复杂度和质量设置
+vendor.audio.qcelp.complexity.default=8
+vendor.audio.qcelp.quality=100
+
+# 音频编码器OzoAudio的复杂度和质量设置
+vendor.audio.ozoaudio.complexity.default=8
+vendor.audio.ozoaudio.quality=100
+
+# 音频编码器HEIC的复杂度和质量设置
+vendor.audio.heic.complexity.default=8
+vendor.audio.heic.quality=100
+
+# 音频编码器HEIF的复杂度和质量设置
+vendor.audio.heif.complexity.default=8
+vendor.audio.heif.quality=100
